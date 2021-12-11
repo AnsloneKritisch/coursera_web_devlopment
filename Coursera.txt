@@ -1,0 +1,3 @@
+github accout -> repo -> Settings -> github pages (scroll down) -> gh-pages in place of main
+
+select themes -> make a website -> 
