@@ -1,3 +1,14 @@
 github accout -> repo -> Settings -> github pages (scroll down) -> gh-pages in place of main
 
-select themes -> make a website -> 
+select themes -> make a website -> then you will simply get a link and your website has been created
+
+Things You should know about git :-
+
+command -> git checkout gh-pages 
+
+use -> It converts the main branch into gh-page one , 
+
+
+
+
+
