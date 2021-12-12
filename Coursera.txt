@@ -8,6 +8,20 @@ command -> git checkout gh-pages
 
 use -> It converts the main branch into gh-page one , 
 
+command -> browser-sync start --server --directory --files "*"
+
+note :-
+
+1. You need to have downloaded the brower sign option
+   type -> "npm install -g browser-sync" to install browser sign option.
+
+2. After writting this command we have to choose the directoy and the html    file to which you want to add browser sign.
+
+
+use -> this command will to sink the browser and codes , one it has been sinked we have to reload the page it will automatically change.
+
+
+
 
 
 
