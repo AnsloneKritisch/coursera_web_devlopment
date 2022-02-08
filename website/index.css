@@ -169,6 +169,13 @@ textarea:valid {
         margin: 35px 0 !important;
     }
     .submit-btn .input-data{
-        width: 50% important;
+        width: 50% !important;
+    }
+}
+
+@media all and (max-width:30em){
+    .button{
+    display:block;
+    margin:0.4em auto;
     }
 }
