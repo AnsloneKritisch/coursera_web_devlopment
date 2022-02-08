@@ -11,43 +11,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Anslone Kritisch  </title>
-    <style>
-        body{ color : white ;}
-        h1{
-            text-align:center;
-            font-family: cursive;
-        }
-        div{
-            text-align: center;
-            font-family: cursive;
-        }
-    </style>
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body bgcolor="black">
+<body>
+    <div class="container">
+        <div class="heading">Please Contact Us</div>
 
-    <h1> Hi! Kuldeep </h1>
-    <br>
-    <Form action="intro.html">
-        
-    <div>
-        How Are you ?
-        <br>
-        <br>
-        <input type="text">
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Send">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <h2>Thanks For Checking My Website</h2>
+        <form action="#">
+
+
+            
+            <div class="main">
+
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label>First Name</label>
+                </div>
+
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label>Last Name</label>
+                </div>
+
+            </div>
+            
+            <div class="main">
+
+                <div class="input-data">
+                    <input type="email" required>
+                    <div class="underline"></div>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label>Website</label>
+                </div>
+
+            </div>
+            
+            <div class="main">
+
+                <div class="input-data  textarea " >
+                    <textarea cols="30" rows="10" required></textarea>
+                    <div class="underline"></div>
+                    <label> Write Your Message </label>
+                </div>
+
+            </div>
+
+
+
+            <div class="submit-btn">
+                <div class="input-data">
+                    <div class="inner"></div>
+                    <input type="submit" value="Submit Now">
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            
+        </form>
     </div>
-
-    </Form>
 </body>
 </html>
