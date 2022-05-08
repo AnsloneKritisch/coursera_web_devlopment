@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  cursor: pointer;
+}
+
+.dg {
+  opacity: 0.7;
+}
+.dg:hover {
+  opacity: 1;
+}
